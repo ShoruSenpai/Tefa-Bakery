@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/Tefa-Bakery/',
   plugins: [vue(), vueDevTools(), tailwindcss()],
   resolve: {
     alias: {
