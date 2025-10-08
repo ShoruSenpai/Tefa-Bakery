@@ -6,7 +6,7 @@ export const products = [
     name: 'Roti Boy (Putih, Mocca)',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -14,7 +14,7 @@ export const products = [
     name: 'Roti Pisang Coklat',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -22,7 +22,7 @@ export const products = [
     name: 'Roti Abon',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -30,7 +30,7 @@ export const products = [
     name: 'Roti Abon Gulung',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -38,7 +38,7 @@ export const products = [
     name: 'Roti Isi Daging',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -46,7 +46,7 @@ export const products = [
     name: 'Roti Kacang Tanah',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -54,7 +54,7 @@ export const products = [
     name: 'Roti Keju',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -62,7 +62,7 @@ export const products = [
     name: 'Roti Coklat Toping Kacang',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -70,7 +70,7 @@ export const products = [
     name: 'Roti Coklat Toping Yupi',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -78,7 +78,7 @@ export const products = [
     name: 'Roti Milk',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -86,7 +86,7 @@ export const products = [
     name: 'Roti Selai Srikaya',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -94,7 +94,7 @@ export const products = [
     name: 'Roti Kacang Ijo',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -102,7 +102,7 @@ export const products = [
     name: 'Roti Sosis',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -110,7 +110,7 @@ export const products = [
     name: 'Roti Cream Meses Keju',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -118,7 +118,7 @@ export const products = [
     name: 'Roti Pizza',
     price: rotiManis,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -126,7 +126,7 @@ export const products = [
     name: 'Roti Tawar',
     price: 12000,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -134,7 +134,7 @@ export const products = [
     name: 'Roti Kasur',
     price: 14000,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -142,7 +142,7 @@ export const products = [
     name: 'Roti Sobek',
     price: 14000,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -150,7 +150,7 @@ export const products = [
     name: 'Roti Kenong',
     price: 12000,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -158,7 +158,7 @@ export const products = [
     name: 'Roti Sisir',
     price: 10000,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -166,7 +166,7 @@ export const products = [
     name: 'Roti Gembul',
     price: 10000,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -174,7 +174,7 @@ export const products = [
     name: 'Roti Kering A',
     price: 15000,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -182,7 +182,7 @@ export const products = [
     name: 'Roti Kering B',
     price: 8000,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -190,7 +190,7 @@ export const products = [
     name: 'Roti Bagelen',
     price: 10000,
     category: 'Roti',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -198,7 +198,7 @@ export const products = [
     name: 'Kopi Tubruk',
     price: 8000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -206,7 +206,7 @@ export const products = [
     name: 'Kopi Filter',
     price: 8000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -214,7 +214,7 @@ export const products = [
     name: 'Kopi Susu Panas',
     price: 10000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -222,7 +222,7 @@ export const products = [
     name: 'Hot Cappuccino',
     price: 12000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -230,7 +230,7 @@ export const products = [
     name: 'Double Expresso',
     price: 10000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -238,7 +238,7 @@ export const products = [
     name: 'Single Expresso',
     price: 8000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -246,7 +246,7 @@ export const products = [
     name: 'Americano',
     price: 10000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -254,7 +254,7 @@ export const products = [
     name: 'Milk Tea',
     price: 10000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -262,7 +262,7 @@ export const products = [
     name: 'Thai Tea',
     price: 10000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -270,7 +270,7 @@ export const products = [
     name: 'Lemon Tea',
     price: 10000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -278,7 +278,7 @@ export const products = [
     name: 'Lychee Tea',
     price: 10000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -286,7 +286,7 @@ export const products = [
     name: 'Hot Chocolate',
     price: 10000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -294,7 +294,7 @@ export const products = [
     name: 'Honey Lemon',
     price: 12000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -302,7 +302,7 @@ export const products = [
     name: 'Teh Hangat',
     price: 5000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -310,7 +310,7 @@ export const products = [
     name: 'Susu Hangat',
     price: 10000,
     category: 'Minuman Panas',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -318,7 +318,7 @@ export const products = [
     name: 'Es Kopi Gaya Wine',
     price: 18000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -326,7 +326,7 @@ export const products = [
     name: 'Es Kopi Susu',
     price: 15000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -334,7 +334,7 @@ export const products = [
     name: 'Es kopi Soda',
     price: 20000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -342,7 +342,7 @@ export const products = [
     name: 'Ice Cappuccino',
     price: 15000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -350,7 +350,7 @@ export const products = [
     name: 'Ice Matchacino',
     price: 15000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -358,7 +358,7 @@ export const products = [
     name: 'Ice Milk Tea',
     price: 15000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -366,7 +366,7 @@ export const products = [
     name: 'Ice Lemon Tea',
     price: 15000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -374,7 +374,7 @@ export const products = [
     name: 'Ice Lychee Tea',
     price: 15000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -382,7 +382,7 @@ export const products = [
     name: 'Ice Chocolate',
     price: 15000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -390,7 +390,7 @@ export const products = [
     name: 'Ice Honey Lemon',
     price: 18000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -398,7 +398,7 @@ export const products = [
     name: 'Es Teh',
     price: 10000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -406,7 +406,7 @@ export const products = [
     name: 'Es Kopi Susu Botol',
     price: 10000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -414,7 +414,7 @@ export const products = [
     name: 'Es Soda Gembira',
     price: 20000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -422,7 +422,7 @@ export const products = [
     name: 'Ice Thai Tea',
     price: 15000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -430,7 +430,7 @@ export const products = [
     name: 'Es Susu',
     price: 15000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
   {
@@ -438,7 +438,7 @@ export const products = [
     name: 'Es Cendol SIP',
     price: 10000,
     category: 'Minuman Dingin',
-    image: '/assets/images/dummy.png',
+    image: 'assets/images/dummy.png',
     stock: 99,
   },
 ]
@@ -449,6 +449,6 @@ export const products = [
 //     name: '',
 //     price: rotiManis,
 //     category: 'Roti',
-//     image: '/assets/images/dummy.png',
+//     image: 'assets/images/dummy.png',
 //     stock: 99,
 //   },

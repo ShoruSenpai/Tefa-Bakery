@@ -2,8 +2,8 @@
   <div class="min-h-screen w-screen flex flex-col bg-background">
     <nav
       :class="[
-        'fixed top-0 left-0 navbar w-full z-999 font-quicksand font-bold transition-all duration-300 text-white',
-        isScrolled ? 'pl-24 pr-12 py-2 text-lg' : 'px-28 py-2 text-xl',
+        'fixed top-0 left-0 w-full z-999 font-quicksand font-bold transition-all duration-300 text-white',
+        isScrolled ? 'pl-24 pr-12 py-2 text-lg bg-primary' : 'px-28 py-2 text-xl navbar',
       ]"
     >
       <div class="flex justify-between items-center">
@@ -35,7 +35,7 @@
     </main>
 
     <footer
-      class="font-poppins bg-primary px-8 py-9 flex align-center justify-center mt-auto text-white cursor-pointer"
+      class="font-poppins bg-primary px-8 py-9 flex flex-col align-center justify-center mt-auto text-white cursor-pointer"
     >
       <div class="flex justify-center items-start basis-3/6 shrink-0 flex-1">
         <div class="flex flex-col justify-start border-r px-12">
@@ -46,12 +46,12 @@
           <p class="py-4">Membangun inovasi bakery bersama generasi muda dengan kualitas terbaik</p>
         </div>
 
-        <div class="px-12 flex flex-col border-r basis-2/6 shrink-0 flex-1">
+        <div class="px-12 flex flex-col basis-2/6 shrink-0 flex-1">
           <h1 class="font-semibold border-b">Navigasi</h1>
           <div class="flex pt-4">
             <div class="flex flex-col">
               <h1 class="font-semibold">tentang Kami</h1>
-              <div class="flex flex-col pl-6 text-sm">
+              <div class="flex flex-col text-sm">
                 <RouterLink class="hover:text-gray-500" to="">Profil</RouterLink>
                 <RouterLink class="hover:text-gray-500" to="">Fasilitas</RouterLink>
                 <RouterLink class="hover:text-gray-500" to="">Galeri Kegiatan</RouterLink>
@@ -65,7 +65,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col px-12 basis-1/6 shrink-0 flex-1">
+        <!-- <div class="flex flex-col px-12 basis-1/6 shrink-0 flex-1">
           <div class="bg-white rounded-xl overflow-hidden shadow-lg">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d473.79095514831806!2d113.72671344394837!3d-8.155362125686215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd695b66f19fbdf%3A0xe4fe4690bfdbc3b5!2sRoti%20SIP%20POLIJE!5e1!3m2!1sid!2sid!4v1759782130745!5m2!1sid!2sid"
@@ -88,7 +88,13 @@
               /></a>
             </div>
           </div>
-        </div>
+        </div> -->
+      </div>
+
+      <div class="text-center mt-8 pt-4 border-t border-white/20">
+        <h1 class="font-poppins font-light text-gray-300 text-xs tracking-wide">
+          &copy; {{ currentYear }} Tefa Bakery. All Rights Reserved.
+        </h1>
       </div>
     </footer>
   </div>
@@ -98,6 +104,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const isScrolled = ref(false)
+const currentYear = ref(new Date().getFullYear())
 
 function handleScroll() {
   isScrolled.value = window.scrollY > 50
