@@ -62,7 +62,7 @@
             <div class="flex flex-col pl-12 font-semibold">
               <RouterLink class="hover:text-gray-500" to="/produk">Produk</RouterLink>
               <RouterLink class="hover:text-gray-500" to="/kontak">Kontak</RouterLink>
-              <RouterLink class="hover:text-gray-500" to="/kemitraan">Kemitraan</RouterLink>
+              <RouterLink class="hover:text-gray-500" to="/Kemitraan">Kemitraan</RouterLink>
             </div>
           </div>
         </div>
