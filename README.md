@@ -1,6 +1,6 @@
 # Tefa Bakery - Company Profile Website
 
-![Tefa Bakery Screenshot](assets/screenshot.png) A clean and modern company profile website for Tefa Bakery, built with Vue.js and styled with Tailwind CSS. This project serves as an online presence, providing information about the company's products, mission, and contact details.
+![Tefa Bakery Screenshot](/assets/screenshot.png) A clean and modern company profile website for Tefa Bakery, built with Vue.js and styled with Tailwind CSS. This project serves as an online presence, providing information about the company's products, mission, and contact details.
 
 **Live Demo:** [https://shorusenpai.github.io/Tefa-Bakery/](https://shorusenpai.github.io/Tefa-Bakery/)
 
