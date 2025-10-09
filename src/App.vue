@@ -37,8 +37,9 @@
     <footer
       class="font-poppins bg-primary px-8 py-9 flex flex-col align-center justify-center mt-auto text-white cursor-pointer"
     >
-      <div class="flex justify-center items-start basis-3/6 shrink-0 flex-1">
-        <div class="flex flex-col justify-start border-r px-12">
+      <div class="flex justify-center items-start shrink-0">
+        <!-- 1/4 side footer main -->
+        <div class="flex flex-col basis-1/4 justify-start border-r px-12 flex-1">
           <RouterLink to="/" class="flex items-center gap-2">
             <img class="bg-white rounded-full h-10 w-auto" src="/assets/images/logo.png" alt="" />
             <h1 class="font-bold text-2xl">TEFA Bakery</h1>
@@ -46,7 +47,8 @@
           <p class="py-4">Membangun inovasi bakery bersama generasi muda dengan kualitas terbaik</p>
         </div>
 
-        <div class="px-12 flex flex-col basis-2/6 shrink-0 flex-1">
+        <!-- 2/4 side footer main -->
+        <div class="px-12 flex flex-col basis-1/4 shrink-0 flex-1">
           <h1 class="font-semibold border-b">Navigasi</h1>
           <div class="flex pt-4">
             <div class="flex flex-col">
@@ -63,6 +65,23 @@
               <RouterLink class="hover:text-gray-500" to="/kemitraan">Kemitraan</RouterLink>
             </div>
           </div>
+        </div>
+
+        <!-- 3/4 side footer main -->
+        <div class="flex flex-col basis-1/4 shrink-0 flex-1">
+          <h1>Produk</h1>
+          <div class="text-white">
+            <h3>Roti</h3>
+            <h3>Minuman Panas/Dingin</h3>
+          </div>
+        </div>
+
+        <!-- 4/4 side footer main -->
+        <div class="flex flex-col basis-1/4 shrink-0 flex-1">
+          <h1>Kontak</h1>
+          <h3></h3>
+          <h3></h3>
+          <h3></h3>
         </div>
 
         <!-- <div class="flex flex-col px-12 basis-1/6 shrink-0 flex-1">
@@ -91,6 +110,7 @@
         </div> -->
       </div>
 
+      <!-- copyright footer main -->
       <div class="text-center mt-8 pt-4 border-t border-white/20">
         <h1 class="font-poppins font-light text-gray-300 text-xs tracking-wide">
           &copy; {{ currentYear }} Tefa Bakery. All Rights Reserved.
@@ -102,6 +122,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import { products } from './data/products'
 
 const isScrolled = ref(false)
 const currentYear = ref(new Date().getFullYear())
