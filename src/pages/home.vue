@@ -11,7 +11,7 @@
         <div class="absolute bg-black/50 inset-0"></div>
 
         <div
-          class="absolute inset-0 flex flex-col justify-center items-center text-white font-quicksand text-center text-shadow-black text-shadow-xs"
+          class="absolute inset-0 flex flex-col justify-center items-center text-white font-quicksand text-center"
         >
           <h1 class="text-4xl font-bold whitespace-break-spaces">
             {{ herotext }}
@@ -24,7 +24,7 @@
     </section>
 
     <section class="bg-secondary">
-      <div class="px-12 py-16 flex">
+      <div class="px-12 py-16 flex cursor-default">
         <img class="h-100" src="/assets/images/section-about.png" alt="" />
         <div class="flex flex-col font-quicksand px-12">
           <h1 class="font-bold text-3xl">Tentang Kami</h1>
@@ -57,7 +57,9 @@
         </div>
 
         <div class="grid grid-cols-3 gap-12 mt-12 px-12">
-          <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div
+            class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-500 overflow-hidden"
+          >
             <div class="h-44 w-full">
               <img
                 class="h-full w-full object-cover"
@@ -70,7 +72,9 @@
               <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet</p>
             </div>
           </div>
-          <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div
+            class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-500 overflow-hidden"
+          >
             <div class="h-44 w-full">
               <img
                 class="h-full w-full object-cover"
@@ -83,7 +87,9 @@
               <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet</p>
             </div>
           </div>
-          <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div
+            class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-500 overflow-hidden"
+          >
             <div class="h-44 w-full">
               <img
                 class="h-full w-full object-cover"
@@ -99,7 +105,7 @@
         </div>
 
         <RouterLink
-          class="mt-12 bg-accent px-12 py-4 rounded-full font-semibold shadow-lg hover:bg-amber-600 transition-all"
+          class="mt-12 bg-accent px-12 py-4 rounded-full font-semibold shadow-black shadow-xs hover:bg-amber-600 transition-all"
           to="/Produk"
           >Lihat Selengkapnya</RouterLink
         >

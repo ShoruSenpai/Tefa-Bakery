@@ -2,7 +2,7 @@
   <div class="min-h-screen w-screen flex flex-col bg-background">
     <nav
       :class="[
-        'fixed top-0 left-0 w-full z-999 font-quicksand font-bold transition-all duration-300 text-white',
+        'fixed top-0 left-0 w-full z-999 font-quicksand font-bold transition-all duration-650 text-white',
         isScrolled ? 'pl-24 pr-12 py-2 text-lg bg-primary' : 'px-28 py-2 text-xl navbar',
       ]"
     >
@@ -10,7 +10,10 @@
         <RouterLink to="/">
           <div class="flex items-center gap-2">
             <img
-              :class="['bg-white rounded-full', isScrolled ? 'h-8' : 'h-10']"
+              :class="[
+                'bg-white rounded-full transition-all duration-650',
+                isScrolled ? 'h-8' : 'h-10',
+              ]"
               src="/assets/images/logo.png"
               alt="Tefa Bakery | Tefa Logo"
             />
@@ -35,53 +38,75 @@
     </main>
 
     <footer
-      class="font-poppins bg-primary px-8 py-9 flex flex-col align-center justify-center mt-auto text-white cursor-pointer"
+      class="font-quicksand bg-primary px-8 py-24 flex flex-col align-center justify-center mt-auto text-white cursor-default"
     >
       <div class="flex justify-center items-start shrink-0">
-        <!-- 1/4 side footer main -->
-        <div class="flex flex-col basis-1/4 justify-start border-r px-12 flex-1">
-          <RouterLink to="/" class="flex items-center gap-2">
+        <!-- 1/2 footer main -->
+        <div class="flex flex-col basis-2/6 justify-start border-r px-12 flex-1">
+          <RouterLink to="/" class="flex items-center gap-2 mb-6">
             <img class="bg-white rounded-full h-10 w-auto" src="/assets/images/logo.png" alt="" />
-            <h1 class="font-bold text-2xl">TEFA Bakery</h1>
+            <h1 class="font-bold font-poppins text-2xl">TEFA Bakery</h1>
           </RouterLink>
-          <p class="py-4">Membangun inovasi bakery bersama generasi muda dengan kualitas terbaik</p>
+          <p class="text-sm">
+            Membangun inovasi bakery bersama generasi muda dengan kualitas terbaik
+          </p>
         </div>
 
-        <!-- 2/4 side footer main -->
-        <div class="px-12 flex flex-col basis-1/4 shrink-0 flex-1">
-          <h1 class="font-semibold border-b">Navigasi</h1>
-          <div class="flex pt-4">
-            <div class="flex flex-col">
-              <h1 class="font-semibold">tentang Kami</h1>
-              <div class="flex flex-col text-sm">
-                <RouterLink class="hover:text-gray-500" to="">Profil</RouterLink>
-                <RouterLink class="hover:text-gray-500" to="">Fasilitas</RouterLink>
-                <RouterLink class="hover:text-gray-500" to="">Galeri Kegiatan</RouterLink>
+        <!-- 2/2 footer side -->
+        <div class="px-12 gap-12 flex basis-4/6 shrink-0 flex-1 justify-between">
+          <!-- 2/4 two side -->
+          <div class="flex flex-col">
+            <h1 class="font-bold text-lg light border-b border-white/40 pb-2 mb-6">Navigasi</h1>
+            <div class="flex gap-8">
+              <div class="flex flex-col">
+                <h2 class="font-normal text-gray-200">Landing Page</h2>
+                <div class="flex flex-col text-sm text-gray-300">
+                  <RouterLink to="/Profil">Profil</RouterLink>
+                  <RouterLink to="/Fasilitas">Fasilitas</RouterLink>
+                  <RouterLink to="/Galeri Kegiatan">Galeri Kegiatan</RouterLink>
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <RouterLink class="hover:text-gray-400" to="/Produk">Produk</RouterLink>
+                <RouterLink class="hover:text-gray-400" to="/Kontak">Kontak</RouterLink>
+                <RouterLink class="hover:text-gray-400" to="/Kemitraan">Kemitraan</RouterLink>
               </div>
             </div>
-            <div class="flex flex-col pl-12 font-semibold">
-              <RouterLink class="hover:text-gray-500" to="/produk">Produk</RouterLink>
-              <RouterLink class="hover:text-gray-500" to="/kontak">Kontak</RouterLink>
-              <RouterLink class="hover:text-gray-500" to="/Kemitraan">Kemitraan</RouterLink>
+          </div>
+          <!-- 3/4 one side -->
+          <div class="flex flex-col">
+            <h1 class="font-bold text-lg border-b border-white/40 pb-2 mb-6">Produk</h1>
+            <div>
+              <h3>Roti Kering</h3>
+              <h3>Roti Manis</h3>
+              <h3>Aneka Roti Isian</h3>
+              <h3>Aneka Minuman</h3>
             </div>
           </div>
-        </div>
-
-        <!-- 3/4 side footer main -->
-        <div class="flex flex-col basis-1/4 shrink-0 flex-1">
-          <h1>Produk</h1>
-          <div class="text-white">
-            <h3>Roti</h3>
-            <h3>Minuman Panas/Dingin</h3>
+          <!-- 4/4 one side -->
+          <div class="flex flex-col">
+            <h1 class="font-bold text-lg border-b border-white/40 pb-2 mb-6">Kontak</h1>
+            <div class="flex flex-col">
+              <div class="flex items-center gap-4">
+                <font-awesome-icon icon="location-dot" />
+                <h3>
+                  Jl. Tawang Mangu, Tegalgede,<br />Kec. Sumbersari.<br />Gerbang belakang POLIJE
+                </h3>
+              </div>
+              <div class="flex items-center gap-4">
+                <font-awesome-icon icon="phone" />
+                <h3></h3>
+              </div>
+              <div class="flex items-center gap-4">
+                <font-awesome-icon icon="" />
+                <h3></h3>
+              </div>
+              <div class="flex items-center gap-4">
+                <font-awesome-icon icon="" />
+                <h3></h3>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <!-- 4/4 side footer main -->
-        <div class="flex flex-col basis-1/4 shrink-0 flex-1">
-          <h1>Kontak</h1>
-          <h3></h3>
-          <h3></h3>
-          <h3></h3>
         </div>
 
         <!-- <div class="flex flex-col px-12 basis-1/6 shrink-0 flex-1">
@@ -111,7 +136,7 @@
       </div>
 
       <!-- copyright footer main -->
-      <div class="text-center mt-8 pt-4 border-t border-white/20">
+      <div class="flex justify-center mt-8 items-end pt-4 border-t border-white/20">
         <h1 class="font-poppins font-light text-gray-300 text-xs tracking-wide">
           &copy; {{ currentYear }} Tefa Bakery. All Rights Reserved.
         </h1>
@@ -128,7 +153,7 @@ const isScrolled = ref(false)
 const currentYear = ref(new Date().getFullYear())
 
 function handleScroll() {
-  isScrolled.value = window.scrollY > 50
+  isScrolled.value = window.scrollY > 10
 }
 
 onMounted(() => {
