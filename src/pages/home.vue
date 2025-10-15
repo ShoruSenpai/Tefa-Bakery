@@ -3,7 +3,7 @@
     <section>
       <div>
         <img
-          class="h-screen w-screen object-cover object-[50%-30%]"
+          class="h-screen w-screen object-cover object-[50%-30%] brightness-80"
           src="/assets/images/hero.png"
           alt="Tefa Bakery | Tefa SIP"
         />
@@ -110,6 +110,10 @@
           >Lihat Selengkapnya</RouterLink
         >
       </div>
+    </section>
+
+    <section class="bg-dark">
+      <div>a</div>
     </section>
   </div>
 </template>

@@ -2,7 +2,7 @@
   <div class="min-h-screen w-screen flex flex-col bg-background">
     <nav
       :class="[
-        'fixed top-0 left-0 w-full z-999 font-quicksand font-bold transition-all duration-650 text-white',
+        'fixed top-0 left-0 w-full z-999 font-quicksand transition-all duration-650 text-white',
         isScrolled ? 'pl-24 pr-12 py-2 text-lg bg-primary' : 'px-28 py-2 text-xl navbar',
       ]"
     >
@@ -17,13 +17,31 @@
               src="/assets/images/logo.png"
               alt="Tefa Bakery | Tefa Logo"
             />
-            <h1>TEFA BAKERY</h1>
+            <h1 class="font-bold">TEFA BAKERY</h1>
           </div>
         </RouterLink>
-        <div class="space-x-8 flex">
-          <RouterLink class="flex items-center gap-1" to="/Tentang-Kami"
-            >Tentang Kami<img class="h-6 w-auto invert" src="/assets/images/arrow-down.svg" alt=""
-          /></RouterLink>
+        <div class="space-x-8 flex font-semibold">
+          <div class="relative inline-block">
+            <button @click="toggleDropdown" class="flex items-center gap-1">
+              Tentang Kami<font-awesome-icon
+                icon="angle-down"
+                :class="['transition-all duration-650 ', isOpen ? 'rotate-180' : 'rotate-0']"
+              />
+            </button>
+            <!-- dropdown content -->
+            <div
+              v-if="isOpen"
+              :class="[
+                'absolute top-full  flex flex-col p-4 w-full font-semibold text-sm overflow-hidden z-50',
+                'transition-all duration-650 ease-in-out',
+                isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-1',
+                isScrolled ? 'bg-primary' : 'navbar',
+              ]"
+            >
+              <RouterLink>Profil</RouterLink>
+              <RouterLink>Galeri Kegiatan</RouterLink>
+            </div>
+          </div>
           <RouterLink to="/Produk">Produk</RouterLink>
           <RouterLink to="/Kontak">Kontak</RouterLink>
           <RouterLink to="/Kemitraan">Kemitraan</RouterLink>
@@ -38,11 +56,11 @@
     </main>
 
     <footer
-      class="font-quicksand bg-primary px-8 py-24 flex flex-col align-center justify-center mt-auto text-white cursor-default"
+      class="font-quicksand font-semibold bg-primary px-8 py-24 flex flex-col align-center justify-center mt-auto text-white cursor-default"
     >
       <div class="flex justify-center items-start shrink-0">
         <!-- 1/2 footer main -->
-        <div class="flex flex-col basis-2/6 justify-start border-r px-12 flex-1">
+        <div class="flex flex-col basis-2/6 justify-start border-r border-white/40 px-12 flex-1">
           <RouterLink to="/" class="flex items-center gap-2 mb-6">
             <img class="bg-white rounded-full h-10 w-auto" src="/assets/images/logo.png" alt="" />
             <h1 class="font-bold font-poppins text-2xl">TEFA Bakery</h1>
@@ -56,11 +74,11 @@
         <div class="px-12 gap-12 flex basis-4/6 shrink-0 flex-1 justify-between">
           <!-- 2/4 two side -->
           <div class="flex flex-col">
-            <h1 class="font-bold text-lg light border-b border-white/40 pb-2 mb-6">Navigasi</h1>
-            <div class="flex gap-8">
+            <h1 class="font-bold text-lg light border-b border-white/40 pb-2 mb-6">Menu</h1>
+            <div class="flex flex-col">
               <div class="flex flex-col">
-                <h2 class="font-normal text-gray-200">Landing Page</h2>
-                <div class="flex flex-col text-sm text-gray-300">
+                <h2 class="">Landing Page</h2>
+                <div class="flex flex-col text-sm font-normal ml-1">
                   <RouterLink to="/Profil">Profil</RouterLink>
                   <RouterLink to="/Fasilitas">Fasilitas</RouterLink>
                   <RouterLink to="/Galeri Kegiatan">Galeri Kegiatan</RouterLink>
@@ -151,9 +169,14 @@ import { products } from './data/products'
 
 const isScrolled = ref(false)
 const currentYear = ref(new Date().getFullYear())
+const isOpen = ref(false)
 
 function handleScroll() {
   isScrolled.value = window.scrollY > 10
+}
+
+function toggleDropdown() {
+  isOpen.value = !isOpen.value
 }
 
 onMounted(() => {
