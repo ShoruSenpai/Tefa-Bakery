@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@layer utilities {
+  .underline-hover {
+    position: relative;
+    display: inline-block;
+  }
+
+  .underline-hover::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2.2px;
+    left: 0;
+    bottom: 0;
+    background: #6b4423;
+    transition: all 0.3s ease;
+  }
+
+  .underline-hover:hover::after {
+    width: 100%;
+  }
+}
