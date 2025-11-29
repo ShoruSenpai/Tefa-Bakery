@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1,
+    "category": "bread",
+    "name": "Roti Boy",
+    "price": 5000
+  },
+  {
+    "id": 2,
+    "category": "bread",
+    "name": "Roti Pisang Coklat",
+    "price": 5000
+  },
+  {
+    "id": 3,
+    "category": "bread",
+    "name": "Roti Abon",
+    "price": 5000
+  },
+  {
+    "id": 4,
+    "category": "bread",
+    "name": "Roti Abon Gulung",
+    "price": 5000
+  },
+  {
+    "id": 5,
+    "category": "bread",
+    "name": "Roti Isi Daging",
+    "price": 5000
+  },
+  {
+    "id": 6,
+    "category": "bread",
+    "name": "Roti Kacang Tanah",
+    "price": 5000
+  },
+  {
+    "id": 7,
+    "category": "bread",
+    "name": "Roti Keju",
+    "price": 5000
+  },
+  {
+    "id": 8,
+    "category": "bread",
+    "name": "Roti Coklat Topping Kacang",
+    "price": 5000
+  },
+  {
+    "id": 9,
+    "category": "bread",
+    "name": "Roti Coklat Topping Yupi",
+    "price": 5000
+  },
+  {
+    "id": 10,
+    "category": "bread",
+    "name": "Roti Milk",
+    "price": 5000
+  },
+  {
+    "id": 11,
+    "category": "bread",
+    "name": "Roti Selai Srikaya",
+    "price": 5000
+  },
+  {
+    "id": 12,
+    "category": "bread",
+    "name": "Roti Kacang Ijo",
+    "price": 5000
+  },
+  {
+    "id": 13,
+    "category": "bread",
+    "name": "Roti Sosis",
+    "price": 5000
+  },
+  {
+    "id": 14,
+    "category": "bread",
+    "name": "Roti Cream Meses Keju",
+    "price": 5000
+  },
+  {
+    "id": 15,
+    "category": "bread",
+    "name": "Roti Pizza",
+    "price": 5000
+  },
+
+  {
+    "id": 16,
+    "category": "bread",
+    "name": "Roti Tawar",
+    "price": 12000
+  },
+  {
+    "id": 17,
+    "category": "bread",
+    "name": "Roti Kasur",
+    "price": 14000
+  },
+  {
+    "id": 18,
+    "category": "bread",
+    "name": "Roti Sobek",
+    "price": 14000
+  },
+  {
+    "id": 19,
+    "category": "bread",
+    "name": "Roti Kenong",
+    "price": 12000
+  },
+  {
+    "id": 20,
+    "category": "bread",
+    "name": "Roti Sisir",
+    "price": 10000
+  },
+  {
+    "id": 21,
+    "category": "bread",
+    "name": "Roti Gembul",
+    "price": 10000
+  },
+
+  {
+    "id": 22,
+    "category": "bread",
+    "name": "Roti Kering A",
+    "price": 15000
+  },
+  {
+    "id": 23,
+    "category": "bread",
+    "name": "Roti Kering B",
+    "price": 8000
+  },
+  {
+    "id": 24,
+    "category": "bread",
+    "name": "Roti Bagelen",
+    "price": 10000
+  },
+
+  {
+    "id": 25,
+    "category": "coffee",
+    "name": "Kopi Tubruk",
+    "price": 8000
+  },
+  {
+    "id": 26,
+    "category": "coffee",
+    "name": "Kopi Filter",
+    "price": 8000
+  },
+  {
+    "id": 27,
+    "category": "coffee",
+    "name": "Kopi Susu Panas",
+    "price": 10000
+  },
+  {
+    "id": 28,
+    "category": "coffee",
+    "name": "Hot Cappucino",
+    "price": 12000
+  },
+  {
+    "id": 29,
+    "category": "coffee",
+    "name": "Espresso Double",
+    "price": 10000
+  },
+  {
+    "id": 30,
+    "category": "coffee",
+    "name": "Espresso Single",
+    "price": 8000
+  },
+  {
+    "id": 31,
+    "category": "coffee",
+    "name": "Americano",
+    "price": 10000
+  },
+  {
+    "id": 32,
+    "category": "coffee",
+    "name": "Milk Tea",
+    "price": 10000
+  },
+  {
+    "id": 33,
+    "category": "coffee",
+    "name": "Thai Tea",
+    "price": 10000
+  },
+  {
+    "id": 34,
+    "category": "coffee",
+    "name": "Hot Chocolate",
+    "price": 10000
+  },
+  {
+    "id": 35,
+    "category": "coffee",
+    "name": "Teh Hangat",
+    "price": 5000
+  },
+  {
+    "id": 36,
+    "category": "coffee",
+    "name": "Susu Hangat",
+    "price": 10000
+  },
+
+  {
+    "id": 37,
+    "category": "coffee",
+    "name": "Es Kopi Susu",
+    "price": 15000
+  },
+  {
+    "id": 38,
+    "category": "coffee",
+    "name": "Es Kopi Soda",
+    "price": 10000
+  },
+  {
+    "id": 39,
+    "category": "coffee",
+    "name": "Es Cappucino",
+    "price": 15000
+  },
+  {
+    "id": 40,
+    "category": "coffee",
+    "name": "Es Matchacino",
+    "price": 15000
+  },
+  {
+    "id": 41,
+    "category": "coffee",
+    "name": "Es Milk Tea",
+    "price": 15000
+  },
+  {
+    "id": 42,
+    "category": "coffee",
+    "name": "Es Lemon Tea",
+    "price": 15000
+  },
+  {
+    "id": 43,
+    "category": "coffee",
+    "name": "Es Chocolate",
+    "price": 15000
+  },
+  {
+    "id": 44,
+    "category": "coffee",
+    "name": "Es Teh",
+    "price": 10000
+  },
+  {
+    "id": 45,
+    "category": "coffee",
+    "name": "Es Thai Tea",
+    "price": 15000
+  },
+  {
+    "id": 46,
+    "category": "coffee",
+    "name": "Es Susu",
+    "price": 10000
+  },
+  {
+    "id": 47,
+    "category": "coffee",
+    "name": "Es Japanesse Coffee",
+    "price": 20000
+  }
+]

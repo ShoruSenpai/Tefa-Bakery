@@ -2,13 +2,14 @@
   <div
     class="min-h-screen w-screen flex flex-col font-[poppins] bg-linear-to-b from-grad-top to-grad-bottom cursor-default"
   >
-    <nav class="fixed flex bg-primary-navbar py-4 shadow-sm shadow-gray-300 w-full">
-      <div class="flex items-center justify-between px-44 w-full">
+    <nav class="fixed flex bg-primary-navbar py-4 shadow-sm shadow-gray-300 w-full z-999">
+      <div class="flex items-center justify-between px-26 w-full">
         <RouterLink to="/" class="flex items-center gap-2">
           <img class="h-8" src="/assets/images/tefa_logo.webp" alt="Tefa Logo" />
           <h1 class="text-xl font-bold text-primary">Tefa Bakery & Coffee</h1>
         </RouterLink>
-        <div class="flex items-center text-primary text-md font-medium gap-x-6">
+        <div class="flex items-center text-primary text-md font-medium gap-x-8">
+          <RouterLink to="/" class="underline-hover">Beranda</RouterLink>
           <RouterLink to="/Tentang-Kami" class="underline-hover">Tentang</RouterLink>
           <RouterLink to="/Produk" class="underline-hover">Produk</RouterLink>
           <RouterLink to="/Galeri" class="underline-hover">Galeri</RouterLink>
@@ -20,8 +21,8 @@
       </div>
     </nav>
 
-    <main class="flex-1 h-full">
-      <section class="h-full flex">
+    <main class="flex-1 h-full w-full">
+      <section class="h-full w-full flex">
         <RouterView />
       </section>
     </main>
@@ -34,7 +35,11 @@
           <!-- left section -->
           <div class="flex flex-col gap-4">
             <div class="flex items-center gap-4">
-              <img class="h-10 w-auto shadow-sm" src="/assets/images/tefa_logo.webp" alt="" />
+              <img
+                class="h-10 w-auto shadow-sm rounded-full"
+                src="/assets/images/tefa_logo.webp"
+                alt=""
+              />
               <h1 class="text-2xl font-bold">Tefa Bakery & Coffee</h1>
             </div>
 

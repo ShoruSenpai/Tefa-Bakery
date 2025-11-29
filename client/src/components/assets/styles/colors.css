@@ -15,6 +15,9 @@
 
   --color-tertiary-border: #e8d4b8;
 
+  /* stars color */
+  --color-star: #d4a574;
+  /* error colors */
   --color-error: #d8524e;
   --color-error-text: #fbeaea;
   --color-error-container: #fbeaea;
