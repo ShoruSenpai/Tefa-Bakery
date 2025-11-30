@@ -2,7 +2,9 @@
   <div
     class="min-h-screen w-screen flex flex-col font-[poppins] bg-linear-to-b from-grad-top to-grad-bottom cursor-default"
   >
-    <nav class="fixed flex bg-primary-navbar py-4 shadow-sm shadow-gray-300 w-full z-999">
+    <nav
+      class="fixed flex bg-primary-navbar py-4 shadow-[0_2px_8px_rgba(0,0,0,0.05)] border-b border-tertiary-border w-full z-999"
+    >
       <div class="flex items-center justify-between px-26 w-full">
         <RouterLink to="/" class="flex items-center gap-2">
           <img class="h-8" src="/assets/images/tefa_logo.webp" alt="Tefa Logo" />
@@ -27,7 +29,9 @@
       </section>
     </main>
 
-    <footer class="bg-secondary cursor-default text-primary font-[poppins]">
+    <footer
+      class="bg-secondary cursor-default text-primary border-t border-tertiary-border font-[poppins]"
+    >
       <!-- hero footer -->
       <div class="flex flex-col items-center">
         <!-- hero banner -->

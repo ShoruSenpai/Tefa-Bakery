@@ -1,6 +1,5 @@
 # todo for 2 days
 
-    - homepage
     - about page
     - product page
     - contact page
@@ -9,8 +8,7 @@
 
 # todo for today
 
-    - homepage
-    - navbar & footer
+    - about page
 
 # done
 
@@ -21,3 +19,5 @@
     - custom css assets
     - custom font
     - fix prettier
+    - navbar & footer
+    - homepage
